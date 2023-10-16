@@ -1,0 +1,98 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(restaurante.jpg);
+
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color:rgb(239, 226, 208);
+    color: red;
+    /*valores superior e inferior, seguido de valores da direita e esquerda.*/
+    padding: 0px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin:0;
+    text-align: center;
+    font-size: 35px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* Estilos das seções */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    /*margin inferior*/
+    margin-bottom: 20px;
+}
+
+/* Estilos das receitas */
+.receita {
+    background-color:rgb(239, 226, 208);
+    border: 1px solid brown;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.receita h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h1{
+    color: black;
+}
+h2{
+    color:brown;
+    text-align: center;
+
+}
+p{
+    color: black;
+}
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    /* Estilos responsivos aqui */
+}
+
+@media screen and (min-width: 769px) {
+    /* Estilos responsivos aqui */
+}
+img{
+    margin: auto;
+    display: block;
+    height: px;
+    width:550px ;
+}
+
+#receitas{
+    background-color:darkgray;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
